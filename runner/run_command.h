@@ -9,6 +9,7 @@
 #ifndef runner_run_command_h
 #define runner_run_command_h
 
-char** run_command(char *argv[]);
+int run_command(char *argv[], int *std_out_length, int *std_err_length);
+int read_buffers(char *out_buffer, int out_length, char *err_buffer, int err_length);
 
 #endif

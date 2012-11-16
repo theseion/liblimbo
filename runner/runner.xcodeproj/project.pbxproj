@@ -184,7 +184,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
-				INSTALL_PATH = /apps/cmsbox3/system/runner;
+				INSTALL_PATH = /apps/cmsbox3/system/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSION_INFO_BUILDER = "Max Leske";
 			};
@@ -194,7 +194,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
-				INSTALL_PATH = /apps/cmsbox3/system/runner;
+				INSTALL_PATH = /apps/cmsbox3/system/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSION_INFO_BUILDER = "Max Leske";
 			};

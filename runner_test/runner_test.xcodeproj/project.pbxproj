@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510876B31654EF7000277A38 /* liblimbo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 510876B21654EF7000277A38 /* liblimbo.dylib */; };
 		519BF1DA164A566100186F40 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 519BF1D9164A566100186F40 /* main.c */; };
 		519BF1DC164A566100186F40 /* runner_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 519BF1DB164A566100186F40 /* runner_test.1 */; };
-		519BF1E3164A584900186F40 /* librunner.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 519BF1E2164A584900186F40 /* librunner.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		510876B21654EF7000277A38 /* liblimbo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblimbo.dylib; path = "../../../Library/Developer/Xcode/DerivedData/runner-ciaudglgdgzkgudquohohnhwrvum/Build/Products/Debug/liblimbo.dylib"; sourceTree = "<group>"; };
 		519BF1D5164A566100186F40 /* runner_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runner_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		519BF1D9164A566100186F40 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		519BF1DB164A566100186F40 /* runner_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = runner_test.1; sourceTree = "<group>"; };
-		519BF1E2164A584900186F40 /* librunner.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librunner.dylib; path = "../../../Library/Developer/Xcode/DerivedData/runner-ciaudglgdgzkgudquohohnhwrvum/Build/Products/Debug/librunner.dylib"; sourceTree = "<group>"; };
 		519BF1E5164A599100186F40 /* run_command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = run_command.h; path = ../../runner/run_command.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519BF1E3164A584900186F40 /* librunner.dylib in Frameworks */,
+				510876B31654EF7000277A38 /* liblimbo.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		519BF1CA164A566100186F40 = {
 			isa = PBXGroup;
 			children = (
-				519BF1E2164A584900186F40 /* librunner.dylib */,
+				510876B21654EF7000277A38 /* liblimbo.dylib */,
 				519BF1D8164A566100186F40 /* runner_test */,
 				519BF1D6164A566100186F40 /* Products */,
 			);
@@ -189,7 +189,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/../../../Netstyle/cmsbox3/instances/default/system\"",
+					"\"$(SRCROOT)/../..\"",
 					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/runner-ciaudglgdgzkgudquohohnhwrvum/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -201,7 +204,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/../../../Netstyle/cmsbox3/instances/default/system\"",
+					"\"$(SRCROOT)/../..\"",
 					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/runner-ciaudglgdgzkgudquohohnhwrvum/Build/Products/Debug\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -226,6 +232,7 @@
 				519BF1E1164A566100186F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
