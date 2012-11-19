@@ -8,9 +8,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "run_command.h"
+#include "limbo.h"
 #include <unistd.h>
-#include <errno.h>
 
 int main() {
     char *argv[] = {"/bin/cat", "/etc/hosts", 0};

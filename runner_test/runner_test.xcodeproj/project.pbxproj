@@ -27,10 +27,10 @@
 
 /* Begin PBXFileReference section */
 		510876B21654EF7000277A38 /* liblimbo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblimbo.dylib; path = "../../../Library/Developer/Xcode/DerivedData/runner-ciaudglgdgzkgudquohohnhwrvum/Build/Products/Debug/liblimbo.dylib"; sourceTree = "<group>"; };
+		5139F059165A9BB300BFFF11 /* limbo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = limbo.h; path = ../../runner/limbo.h; sourceTree = "<group>"; };
 		519BF1D5164A566100186F40 /* runner_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runner_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		519BF1D9164A566100186F40 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		519BF1DB164A566100186F40 /* runner_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = runner_test.1; sourceTree = "<group>"; };
-		519BF1E5164A599100186F40 /* run_command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = run_command.h; path = ../../runner/run_command.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				519BF1D9164A566100186F40 /* main.c */,
-				519BF1E5164A599100186F40 /* run_command.h */,
+				5139F059165A9BB300BFFF11 /* limbo.h */,
 				519BF1DB164A566100186F40 /* runner_test.1 */,
 			);
 			path = runner_test;

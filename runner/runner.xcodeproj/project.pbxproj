@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51A1AE3516492E5D00F1B69B /* run_command.c in Sources */ = {isa = PBXBuildFile; fileRef = 51A1AE3416492E5D00F1B69B /* run_command.c */; };
-		51A1AE381649307A00F1B69B /* liblimbo.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51A1AE2D16492DDA00F1B69B /* liblimbo.dylib */; };
+		51B0E112165692B0000D10FD /* limbo.c in Sources */ = {isa = PBXBuildFile; fileRef = 51B0E110165692B0000D10FD /* limbo.c */; };
+		51B0E113165692B0000D10FD /* limbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B0E111165692B0000D10FD /* limbo.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		51A1AE371649305C00F1B69B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /apps/cmsbox3/system;
+			dstPath = "";
 			dstSubfolderSpec = 0;
 			files = (
-				51A1AE381649307A00F1B69B /* liblimbo.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		51A1AE2D16492DDA00F1B69B /* liblimbo.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblimbo.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		51A1AE3416492E5D00F1B69B /* run_command.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run_command.c; sourceTree = "<group>"; };
-		51A1AE3616492E9C00F1B69B /* run_command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = run_command.h; sourceTree = "<group>"; };
+		51B0E110165692B0000D10FD /* limbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = limbo.c; sourceTree = "<group>"; };
+		51B0E111165692B0000D10FD /* limbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = limbo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +43,8 @@
 		51A1AE2216492DDA00F1B69B = {
 			isa = PBXGroup;
 			children = (
-				51A1AE3416492E5D00F1B69B /* run_command.c */,
-				51A1AE3616492E9C00F1B69B /* run_command.h */,
+				51B0E110165692B0000D10FD /* limbo.c */,
+				51B0E111165692B0000D10FD /* limbo.h */,
 				51A1AE2E16492DDA00F1B69B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +64,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B0E113165692B0000D10FD /* limbo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A1AE3516492E5D00F1B69B /* run_command.c in Sources */,
+				51B0E112165692B0000D10FD /* limbo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
