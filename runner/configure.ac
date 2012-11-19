@@ -8,7 +8,7 @@ LT_PREREQ([2.2])
 LT_INIT([shared])
 AC_DISABLE_STATIC
 
-AC_CONFIG_SRCDIR([config.h.in])
+AC_CONFIG_SRCDIR([src/limbo.c])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile])
 
