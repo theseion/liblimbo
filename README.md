@@ -1,0 +1,1 @@
+see the READEM packaged with the source: https://github.com/theseion/liblimbo/blob/master/limbo/README
