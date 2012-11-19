@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51B0E112165692B0000D10FD /* limbo.c in Sources */ = {isa = PBXBuildFile; fileRef = 51B0E110165692B0000D10FD /* limbo.c */; };
-		51B0E113165692B0000D10FD /* limbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B0E111165692B0000D10FD /* limbo.h */; };
+		51608EC9165AC8E40090EBAF /* limbo.c in Sources */ = {isa = PBXBuildFile; fileRef = 51608EC7165AC8E40090EBAF /* limbo.c */; };
+		51608ECA165AC8E40090EBAF /* limbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 51608EC8165AC8E40090EBAF /* limbo.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		51608EC7165AC8E40090EBAF /* limbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = limbo.c; sourceTree = "<group>"; };
+		51608EC8165AC8E40090EBAF /* limbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = limbo.h; sourceTree = "<group>"; };
 		51A1AE2D16492DDA00F1B69B /* liblimbo.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblimbo.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		51B0E110165692B0000D10FD /* limbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = limbo.c; sourceTree = "<group>"; };
-		51B0E111165692B0000D10FD /* limbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = limbo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,11 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51608EC6165AC8E40090EBAF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				51608EC7165AC8E40090EBAF /* limbo.c */,
+				51608EC8165AC8E40090EBAF /* limbo.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		51A1AE2216492DDA00F1B69B = {
 			isa = PBXGroup;
 			children = (
-				51B0E110165692B0000D10FD /* limbo.c */,
-				51B0E111165692B0000D10FD /* limbo.h */,
+				51608EC6165AC8E40090EBAF /* src */,
 				51A1AE2E16492DDA00F1B69B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +72,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B0E113165692B0000D10FD /* limbo.h in Headers */,
+				51608ECA165AC8E40090EBAF /* limbo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B0E112165692B0000D10FD /* limbo.c in Sources */,
+				51608EC9165AC8E40090EBAF /* limbo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
