@@ -7,7 +7,7 @@ This is how you build liblimbo and use with the NativeBoost enabled Cog VM (shel
 2. $ cp .libs/liblimbo.<"so" for linux / "dylib" for OS X> /<path to vm>/NBCog.app/Contents/MacOS/Plugins/
 3. open an image with NBCog and install NativeBoost ("NBInstaller install.")
 4. get Limbo from 
-	MCGemstoneRepository
-		location: 'http://ss3.gemstone.com/ss/Limbo'
-		user: ''
-		password: ''
+	MCHttpRepository
+	location: 'http://smalltalkhub.com/mc/MaxLeske/Limbo/main'
+	user: ''
+	password: ''
